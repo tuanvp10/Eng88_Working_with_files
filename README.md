@@ -5,7 +5,7 @@
 ### `try`, `except` and `finally` block of codes
 
 - They as if and else block.
-```
+```python
 # Create a function called greetings
 # def greetings():
 #       pass
@@ -23,7 +23,6 @@ except FileNotFoundError as errmsg:
 finally:
     print("Thank you for visiting, hope to see you again!")
 ```
-```
 ### Handling files - Reading files- We have already opened a file and we have begun to handle some of the errors that can come from it but there are many more options to be applied to the opening of a file. The key part is adding a mode to the file opening`open(file, mode)`
 | Mode |Description|
 | :----: |:---- |
@@ -34,9 +33,8 @@ finally:
 |'t' |This is the default mode. It opens in text mode.|
 |'b' |This opens in binary mode.
 |'+' |This will open a file for reading and writing (updating)|
-```
 ### Writing Files
-```
+```python
 # Second Iteration
 # def open_using_with_and_print(file):
 #
